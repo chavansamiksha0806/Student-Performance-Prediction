@@ -1,4 +1,4 @@
-##Project title
+##Project title:
 Student Performance Prediction
 
 ##Objective:Predict Student Final Marks Using Machine Learning
