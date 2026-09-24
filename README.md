@@ -42,7 +42,6 @@ Student-Performance-Prediction/
 
 ## 🖥️ Sample Output
 
-```text
 Enter Study Hours: 5
 Enter Attendance: 90
 Enter Assignment Score: 85
