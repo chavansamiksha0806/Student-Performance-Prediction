@@ -1,34 +1,41 @@
-##Project title:
-Student Performance Prediction
+# 🎓 Student Performance Prediction
 
-##Objective:Predict Student Final Marks Using Machine Learning
+A Python machine learning project that predicts student final marks using student data.
 
-##Features: -Read CSV dataset
-            -Analyze Student Data
-            -Train Prediction Model
-            -Predict Final Marks
-            -Show Performance Category
+## 🎯 Objective
 
-##Technologies: -Python
-                -Pandas
-                -Scikit-learn
-                -Matplotlib
-                -Joblib
+To predict student final marks using Machine Learning techniques.
 
-##Project Structure:  Student-Performance Prediction
-                          dataset/
-                          models/
-                          src/
-                          requirements.txt
-                          README.md
+## ✨ Features
 
-##How to Run:- Install:
-                   pip install -r requirements.txt
-                Train:
-                   python src/train.py
-                Predict:
-                python src/predict.py
+- Read student data from CSV
+- Analyze student data
+- Train a Machine Learning model
+- Predict final marks
+- Show student performance category
 
-##Future Improvements: -Add UI
-                       -Deploy Online
-                       -Add more Student Factors
+## 🛠️ Technologies Used
+
+- Python
+- Pandas
+- Scikit-learn
+- Matplotlib
+- Joblib
+
+## 📁 Project Structure
+
+```text
+Student-Performance-Prediction/
+│
+├── dataset/
+│   └── student_data.csv
+│
+├── models/
+│   └── student_model.pkl
+│
+├── src/
+│   ├── train.py
+│   └── predict.py
+│
+├── requirements.txt
+└── README.md
