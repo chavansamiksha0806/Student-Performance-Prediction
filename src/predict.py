@@ -1,4 +1,5 @@
 import joblib
+import pandas as pd
 model=joblib.load(
     "models/student_model.pkl"
     )
@@ -22,16 +23,22 @@ Previous_Marks=float(
     input("Enter Previous Marks: ")
     )
 
-result=model.predict(
-    [
-        [
-            Study_Hours,
-              Attendance,
-                Assignment,
-                  Previous_Marks
-        ]
+input_data = pd.DataFrame(
+    [[
+        Study_Hours,
+        Attendance,
+        Assignment,
+        Previous_Marks
+    ]],
+    columns=[
+        "Study_Hours",
+        "Attendance",
+        "Assignment",
+        "Previous_Marks"
     ]
 )
+
+result = model.predict(input_data)
 print("\nPredicted Final Marks:", 
       round(result[0], 2)
       )
