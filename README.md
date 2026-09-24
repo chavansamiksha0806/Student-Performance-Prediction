@@ -39,3 +39,14 @@ Student-Performance-Prediction/
 │
 ├── requirements.txt
 └── README.md
+
+## 🖥️ Sample Output
+
+```text
+Enter Study Hours: 5
+Enter Attendance: 90
+Enter Assignment Score: 85
+Enter Previous Marks: 80
+
+Predicted Final Marks: 87.42
+Performance: Good
