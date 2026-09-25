@@ -102,3 +102,7 @@ models/student_model.pkl
 This project was created as part of my learning journey in Python and Machine Learning.
 
 I am a T.Y. B.Sc. Computer Science student interested in improving my programming, problem-solving and machine learning skills.
+
+## 📸 Project Output
+
+![Student Performance Prediction Output](Screenshot%20%2854%29.png)
